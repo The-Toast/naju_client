@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="424c678d-181b-40d7-8562-663758eeebb2" name="Changes" comment="add theme.ts">
-      <change afterPath="$PROJECT_DIR$/src/app/auth/login/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Logo/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Logo/kakao.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoginButton/index.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoginButton/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uikit/Input/index.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="424c678d-181b-40d7-8562-663758eeebb2" name="Changes" comment="add Storybook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageContainers/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageContainers/Login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/useThemeStore.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/useDarkStore.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/emotion.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/emotion.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uikit/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/uikit/Input/index.tsx" afterDir="false" />
     </list>
     <list id="f854694b-f018-490b-8c52-3456678c3526" name="Changes by samsung" comment="">
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
@@ -107,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753170761261</updated>
-      <workItem from="1753170762290" duration="25094000" />
+      <workItem from="1753170762290" duration="25230000" />
     </task>
     <task id="LOCAL-00001" summary="clear">
       <option name="closed" value="true" />
@@ -133,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753246328620</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Storybook">
+      <option name="closed" value="true" />
+      <created>1753281599503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753281599503</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +133,7 @@
     <MESSAGE value="clear" />
     <MESSAGE value="add GlobalStyle.tsx" />
     <MESSAGE value="add theme.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add theme.ts" />
+    <MESSAGE value="add Storybook" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Storybook" />
   </component>
 </project>
