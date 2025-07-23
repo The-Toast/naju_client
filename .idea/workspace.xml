@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="424c678d-181b-40d7-8562-663758eeebb2" name="Changes" comment="add Storybook">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="424c678d-181b-40d7-8562-663758eeebb2" name="Changes" comment="CleanUp Code">
+      <change beforePath="$PROJECT_DIR$/src/styles/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/theme.ts" afterDir="false" />
     </list>
-    <list id="f854694b-f018-490b-8c52-3456678c3526" name="Changes by samsung" comment="">
+    <list id="f854694b-f018-490b-8c52-3456678c3526" name="Changes by samsung" comment="Changes by samsung">
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
-    <list id="14bd9a7a-328e-48dd-aad1-a5a595a3f9fa" name="Changes by soohy" comment="">
+    <list id="14bd9a7a-328e-48dd-aad1-a5a595a3f9fa" name="Changes by soohy" comment="Changes by soohy">
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753170761261</updated>
-      <workItem from="1753170762290" duration="25230000" />
+      <workItem from="1753170762290" duration="25275000" />
     </task>
     <task id="LOCAL-00001" summary="clear">
       <option name="closed" value="true" />
@@ -123,7 +124,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753281599503</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CleanUp Code">
+      <option name="closed" value="true" />
+      <created>1753281700015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753281700015</updated>
+    </task>
+    <task id="LOCAL-00006" summary="CleanUp Code">
+      <option name="closed" value="true" />
+      <created>1753281716851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753281716851</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +151,7 @@
     <MESSAGE value="add GlobalStyle.tsx" />
     <MESSAGE value="add theme.ts" />
     <MESSAGE value="add Storybook" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Storybook" />
+    <MESSAGE value="CleanUp Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="CleanUp Code" />
   </component>
 </project>
