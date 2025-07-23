@@ -4,5 +4,5 @@ import { LightTheme } from 'styles'
 type DefaultTheme = typeof LightTheme
 
 declare module '@emotion/react' {
-  interface LightTheme extends DefaultTheme {}
+  interface Theme extends DefaultTheme {}
 }

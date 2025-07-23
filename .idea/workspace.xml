@@ -4,22 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="424c678d-181b-40d7-8562-663758eeebb2" name="Changes" comment="add GlobalStyle.tsx">
-      <change afterPath="$PROJECT_DIR$/src/pageContainers/Login/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stores/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stores/useThemeStore.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/emotion.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/theme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uikit/Input/index.tsx" afterDir="false" />
+    <list default="true" id="424c678d-181b-40d7-8562-663758eeebb2" name="Changes" comment="add theme.ts">
+      <change afterPath="$PROJECT_DIR$/src/app/auth/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Logo/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Logo/kakao.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginButton/index.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginButton/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uikit/Input/index.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageContainers/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageContainers/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/useThemeStore.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/useDarkStore.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/emotion.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/emotion.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uikit/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/uikit/Input/index.tsx" afterDir="false" />
+    </list>
+    <list id="f854694b-f018-490b-8c52-3456678c3526" name="Changes by samsung" comment="">
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+    </list>
+    <list id="14bd9a7a-328e-48dd-aad1-a5a595a3f9fa" name="Changes by soohy" comment="">
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +59,9 @@
     "accountId": "060d2a02-d2e4-4905-a773-90626c98217b"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -51,16 +77,22 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yechan0616/Desktop/naju_client/.storybook",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.language.and.region",
+    "settings.editor.selected.configurable": "CodeWithMe",
     "ts.external.directory.path": "/Users/yechan0616/Desktop/naju_client/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.storybook" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753170761261</updated>
-      <workItem from="1753170762290" duration="10974000" />
+      <workItem from="1753170762290" duration="25094000" />
     </task>
     <task id="LOCAL-00001" summary="clear">
       <option name="closed" value="true" />
@@ -93,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753244704920</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add theme.ts">
+      <option name="closed" value="true" />
+      <created>1753246328620</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753246328620</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clear" />
     <MESSAGE value="add GlobalStyle.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="add GlobalStyle.tsx" />
+    <MESSAGE value="add theme.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add theme.ts" />
   </component>
 </project>

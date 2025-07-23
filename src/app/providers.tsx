@@ -12,9 +12,9 @@ const emotionCache = createCache({ key: 'css', prepend: true })
 export default function Providers(
   {children}: {children: ReactNode}
 ) {
-  const {isDark} = useDarkStore()
+  const { isDark } = useDarkStore()
   return (
-    <ThemeProvider theme={isDark ? DarkTheme : LightTheme}>
+    <ThemeProvider theme={ isDark ? DarkTheme : LightTheme }>
       <CacheProvider value={emotionCache}>
         <GlobalStyle />
         {children}
