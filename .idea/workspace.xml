@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="424c678d-181b-40d7-8562-663758eeebb2" name="Changes" comment="clear">
-      <change afterPath="$PROJECT_DIR$/src/app/providers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.ts" afterDir="false" />
+    <list default="true" id="424c678d-181b-40d7-8562-663758eeebb2" name="Changes" comment="add GlobalStyle.tsx">
+      <change afterPath="$PROJECT_DIR$/src/pageContainers/Login/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/useThemeStore.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/emotion.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uikit/Input/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753170761261</updated>
-      <workItem from="1753170762290" duration="9278000" />
+      <workItem from="1753170762290" duration="10974000" />
     </task>
     <task id="LOCAL-00001" summary="clear">
       <option name="closed" value="true" />
@@ -82,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753171921501</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add GlobalStyle.tsx">
+      <option name="closed" value="true" />
+      <created>1753244704920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753244704920</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear" />
+    <MESSAGE value="add GlobalStyle.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="add GlobalStyle.tsx" />
   </component>
 </project>
