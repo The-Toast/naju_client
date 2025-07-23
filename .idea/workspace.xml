@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="424c678d-181b-40d7-8562-663758eeebb2" name="Changes" comment="CleanUp Code">
-      <change beforePath="$PROJECT_DIR$/src/styles/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/manager.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.tsx" afterDir="false" />
     </list>
-    <list id="f854694b-f018-490b-8c52-3456678c3526" name="Changes by samsung" comment="Changes by samsung">
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-    </list>
-    <list id="14bd9a7a-328e-48dd-aad1-a5a595a3f9fa" name="Changes by soohy" comment="Changes by soohy">
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-    </list>
+    <list id="f854694b-f018-490b-8c52-3456678c3526" name="Changes by samsung" comment="Cleanup Code" />
+    <list id="14bd9a7a-328e-48dd-aad1-a5a595a3f9fa" name="Changes by soohy" comment="Changes by soohy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753170761261</updated>
-      <workItem from="1753170762290" duration="25275000" />
+      <workItem from="1753170762290" duration="26492000" />
     </task>
     <task id="LOCAL-00001" summary="clear">
       <option name="closed" value="true" />
@@ -140,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753281716851</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cleanup Code">
+      <option name="closed" value="true" />
+      <created>1753281776035</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753281776035</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +158,8 @@
     <MESSAGE value="add theme.ts" />
     <MESSAGE value="add Storybook" />
     <MESSAGE value="CleanUp Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="CleanUp Code" />
+    <MESSAGE value="Changes by samsung" />
+    <MESSAGE value="Cleanup Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup Code" />
   </component>
 </project>
