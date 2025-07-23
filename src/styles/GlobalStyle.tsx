@@ -26,6 +26,7 @@ export const Styled = css`
     font-size: inherit;
     font: inherit;
     vertical-align: baseline;
+    overflow: hidden;
   }
 
   /* HTML5 display-role reset for older browsers */
@@ -99,6 +100,13 @@ export const Styled = css`
         system-ui,
         sans-serif;
     transition: background-color 0.3s;
+  }
+  
+  body,
+  html, * {
+    -ms-content-zooming: none;
+    -ms-touch-action: pan-x pan-y;
+    touch-action: manipulation;
   }
   
   p {

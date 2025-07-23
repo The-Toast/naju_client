@@ -18,7 +18,7 @@ import styled from '@emotion/styled'
 export const Container = styled.div`
   // Layout
   display: flex;
-  width: 22.625rem;
+  width: 100%;
   height: 3.75rem;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@ export const Container = styled.div`
 
   // Active, Style
   &:active {
-    background: #F0DD48;
+    background: #D6C23E;
   }
 `
 

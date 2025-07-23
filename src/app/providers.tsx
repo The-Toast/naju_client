@@ -2,23 +2,33 @@
 
 import { ReactNode } from 'react'
 import { CacheProvider, ThemeProvider } from '@emotion/react'
-import createCache from '@emotion/cache'
-import { GlobalStyle, LightTheme, DarkTheme } from 'styles'
+import { ViewTransitions } from 'next-view-transitions'
+import { useEmotionCache } from 'hooks'
+import { useThemeSetup } from 'hooks'
+import { GlobalStyle } from 'styles'
 
-import { useDarkStore } from 'stores'
+export default function Providers({ children }: { children: ReactNode }) {
+  const cache = useEmotionCache()
+  const { theme, isMounted } = useThemeSetup()
 
-const emotionCache = createCache({ key: 'css', prepend: true })
-
-export default function Providers(
-  {children}: {children: ReactNode}
-) {
-  const { isDark } = useDarkStore()
-  return (
-    <ThemeProvider theme={ isDark ? DarkTheme : LightTheme }>
-      <CacheProvider value={emotionCache}>
-        <GlobalStyle />
-        {children}
+  if (!isMounted) {
+    return (
+      <CacheProvider value={cache}>
+        <ThemeProvider theme={theme}>
+          <GlobalStyle />
+        </ThemeProvider>
       </CacheProvider>
-    </ThemeProvider>
+    )
+  }
+
+  return (
+    <CacheProvider value={cache}>
+      <ThemeProvider theme={theme}>
+        <ViewTransitions>
+          <GlobalStyle />
+          {children}
+        </ViewTransitions>
+      </ThemeProvider>
+    </CacheProvider>
   )
 }
