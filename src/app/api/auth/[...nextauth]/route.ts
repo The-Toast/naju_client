@@ -5,7 +5,7 @@ import { prisma } from 'lib/prisma'
 export const authOptions: NextAuthOptions = {
   providers: [
     KakaoProvider({
-      clientId: process.env.NEXT_AUTH_CLIENT_ID!,
+      clientId: process.env.NEXTAUTH_CLIENT_ID!,
       clientSecret: process.env.NEXTAUTH_SECRET!,
     })
   ],
