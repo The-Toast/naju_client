@@ -2,7 +2,7 @@
 
 import { ReactNode } from 'react'
 import { CacheProvider, ThemeProvider } from '@emotion/react'
-import { ViewTransitions } from 'next-view-transitions'
+import { SessionProvider } from 'next-auth/react'
 import { useEmotionCache } from 'hooks'
 import { useThemeSetup } from 'hooks'
 import { GlobalStyle } from 'styles'
@@ -24,10 +24,10 @@ export default function Providers({ children }: { children: ReactNode }) {
   return (
     <CacheProvider value={cache}>
       <ThemeProvider theme={theme}>
-        <ViewTransitions>
+        <SessionProvider>
           <GlobalStyle />
           {children}
-        </ViewTransitions>
+        </SessionProvider>
       </ThemeProvider>
     </CacheProvider>
   )

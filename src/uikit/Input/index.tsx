@@ -20,7 +20,7 @@ export const Input = styled.input`
   display: flex;
   width: 22.625rem;
   height: 3.75rem;
-  padding: 0rem 1.25rem;
+  padding: 0 1.25rem;
   align-items: center;
   
   // Style

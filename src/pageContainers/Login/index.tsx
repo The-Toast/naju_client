@@ -4,6 +4,8 @@ import { NajuSmall } from 'assets'
 
 import LoginButton from 'components/LoginButton'
 
+import { signIn } from 'next-auth/react'
+
 export default function Login() {
   return (
     <Container>
@@ -19,7 +21,7 @@ export default function Login() {
             </Text>
           </TextContent>
         </LogoContent>
-        <LoginButton />
+        <LoginButton onClick={() => signIn('kakao', { callbackUrl: '/' })} />
       </Content>
     </Container>
   )
