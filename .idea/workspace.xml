@@ -4,67 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="Fix FOUC">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/3D/Calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/3D/Location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/3D/Map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/me/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/user/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/entry/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/3D/Calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/3D/Location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/3D/Map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/prisma.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pageContainers/Entry/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pageContainers/Loading/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uikit/Button/index.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uikit/Button/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/validation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/manager.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/manager.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/auth/developer/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/auth/developer/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/auth/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/auth/login/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Logo/NajuLarge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Logo/NajuLarge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Logo/NajuSmall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Logo/NajuSmall.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Logo/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Logo/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Logo/kakao.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Logo/kakao.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginButton/index.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginButton/index.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginButton/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginButton/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useEmotionCache.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useEmotionCache.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useThemeSetup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useThemeSetup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageContainers/Loading/loading.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageContainers/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageContainers/Login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uikit/Input/index.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/uikit/Input/index.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uikit/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/uikit/Input/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.node.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vitest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vitest.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vitest.shims.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vitest.shims.d.ts" afterDir="false" />
+    <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
     </list>
-    <list id="3c429dc0-6ad0-4cf5-9e90-753659b8dccb" name="Changes by samsung" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/LoginButton/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginButton/index.tsx" afterDir="false" />
-    </list>
+    <list id="3c429dc0-6ad0-4cf5-9e90-753659b8dccb" name="Changes by samsung" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,17 +47,6 @@
     <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/@types+node@20.19.9/node_modules/@types/node/globals.d.ts" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/prisma/schema.prisma" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/components/LoginButton/index.tsx">
-      <ranges>
-        <range start1="1" end1="1" start2="1" end2="5" changelist="112c0106-afbf-48f2-a73d-287c15b124f9" />
-        <range start1="4" end1="5" start2="8" end2="11" changelist="3c429dc0-6ad0-4cf5-9e90-753659b8dccb" />
-        <range start1="6" end1="7" start2="12" end2="13" changelist="3c429dc0-6ad0-4cf5-9e90-753659b8dccb" />
-        <range start1="11" end1="12" start2="17" end2="18" changelist="112c0106-afbf-48f2-a73d-287c15b124f9" />
-        <range start1="17" end1="18" start2="23" end2="24" changelist="112c0106-afbf-48f2-a73d-287c15b124f9" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -126,27 +58,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.localhost:3000.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yechan0616/Desktop/naju_client/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/yechan0616/Desktop/naju_client/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.localhost:3000.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "/Users/yechan0616/Desktop/naju_client/prisma",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/yechan0616/Desktop/naju_client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -272,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753297948729</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test">
+      <option name="closed" value="true" />
+      <created>1753368383745</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753368383745</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +228,7 @@
     <MESSAGE value="Cleanup Code" />
     <MESSAGE value="setup Theme" />
     <MESSAGE value="Fix FOUC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix FOUC" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
