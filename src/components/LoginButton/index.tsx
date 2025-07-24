@@ -6,9 +6,11 @@ interface LoginButtonProps {
 
 import { KakaoLogo } from 'assets'
 
-export default function LoginButton() {
+export default function LoginButton(
+  { onClick }: LoginButtonProps
+) {
   return (
-    <Container>
+    <StyledButton onClick={onClick}>
       <LogoContent>
         <KakaoLogo />
       </LogoContent>
