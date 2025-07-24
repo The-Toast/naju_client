@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+    <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="ㅈㄴ 꼬였다">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/3D/Calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/3D/Location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/3D/Map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginButton/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginButton/index.tsx" afterDir="false" />
     </list>
     <list id="3c429dc0-6ad0-4cf5-9e90-753659b8dccb" name="Changes by samsung" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +85,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/prisma" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/uikit/Button" />
       <recent name="$PROJECT_DIR$/.storybook" />
@@ -212,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753368383745</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ㅈㄴ 꼬였다">
+      <option name="closed" value="true" />
+      <created>1753368534634</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753368534634</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +242,7 @@
     <MESSAGE value="setup Theme" />
     <MESSAGE value="Fix FOUC" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="ㅈㄴ 꼬였다" />
+    <option name="LAST_COMMIT_MESSAGE" value="ㅈㄴ 꼬였다" />
   </component>
 </project>
