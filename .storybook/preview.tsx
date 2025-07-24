@@ -1,7 +1,6 @@
 import type { Preview } from '@storybook/nextjs-vite'
 import { ThemeProvider, Global, css } from '@emotion/react'
 import { GlobalStyle, LightTheme, DarkTheme } from 'styles'
-import { themes } from 'storybook/theming'
 
 export const globalTypes = {
   darkMode: {

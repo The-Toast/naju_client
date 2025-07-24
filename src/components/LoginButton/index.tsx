@@ -1,5 +1,9 @@
 'use client'
 
+interface LoginButtonProps {
+  onClick: () => void;
+}
+
 import { KakaoLogo } from 'assets'
 
 export default function LoginButton() {
@@ -9,13 +13,13 @@ export default function LoginButton() {
         <KakaoLogo />
       </LogoContent>
       <Text>카카오로 계속하기</Text>
-    </Container>
+    </StyledButton>
   )
 }
 
 import styled from '@emotion/styled'
 
-export const Container = styled.div`
+export const StyledButton = styled.button`
   // Layout
   display: flex;
   width: 100%;

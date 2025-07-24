@@ -1,7 +1,5 @@
 'use client'
 
-import emotionReset from 'emotion-reset'
-
 import { Global, css } from '@emotion/react'
 
 export const Styled = css`
