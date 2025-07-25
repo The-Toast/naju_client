@@ -17,14 +17,14 @@ export const Styled = css`
   article, aside, canvas, details, embed,
   figure, figcaption, footer, header, hgroup,
   menu, nav, output, ruby, section, summary,
-  time, mark, audio, video, svg {
+  time, mark, audio, video, svg, a {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: inherit;
     font: inherit;
     vertical-align: baseline;
     overflow: hidden;
+    text-decoration: none;
   }
 
   /* HTML5 display-role reset for older browsers */
@@ -47,10 +47,6 @@ export const Styled = css`
   }
 
   blockquote:before, blockquote:after,
-  q:before, q:after {
-    content: '';
-    content: none;
-  }
 
   table {
     border-collapse: collapse;
@@ -71,7 +67,6 @@ export const Styled = css`
     box-shadow: none;
     appearance: none;
     -webkit-appearance: none;
-    -moz-appearance: none;
   }
 
   button {

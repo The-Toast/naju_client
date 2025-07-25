@@ -19,7 +19,6 @@ export const Container = styled.div`
   display: flex;
   width: 100vw;
   height: 100dvh;
-  padding: 24.5625rem 6.9375rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
