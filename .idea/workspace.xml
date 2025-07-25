@@ -4,25 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="add LandingPage">
-      <change afterPath="$PROJECT_DIR$/src/assets/Nav/Calendar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Nav/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Nav/Location.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Nav/My.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Nav/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Banner/Banner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Banner/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Banner/styled.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Header/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Stamp/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/index.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pageContainers/Landing/index.tsx" afterDir="false" />
+    <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="edit LadingPage">
+      <change afterPath="$PROJECT_DIR$/src/assets/Events.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Camera/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Date/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/MoreBtn/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Title/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getCurrentWeekRange.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageContainers/Loading/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageContainers/Loading/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageContainers/Landing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageContainers/Landing/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +49,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -88,6 +84,8 @@
       <recent name="$PROJECT_DIR$/.storybook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/hooks" />
     </key>
   </component>
@@ -121,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753170761261</updated>
       <workItem from="1753170762290" duration="38882000" />
-      <workItem from="1753454405653" duration="376000" />
+      <workItem from="1753454405653" duration="6561000" />
     </task>
     <task id="LOCAL-00001" summary="clear">
       <option name="closed" value="true" />
@@ -203,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753372326922</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add LandingPage">
+      <option name="closed" value="true" />
+      <created>1753454786595</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753454786595</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +226,19 @@
     <MESSAGE value="setup Theme" />
     <MESSAGE value="시발" />
     <MESSAGE value="add LandingPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LandingPage" />
+    <MESSAGE value="edit LadingPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit LadingPage" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/assets/Events.ts</url>
+          <line>241</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

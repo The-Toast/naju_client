@@ -8,7 +8,7 @@ export const Container = styled.div<{ image: string; }>`
   
   // Style
   border-radius: 1rem;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%), url(${( props ) => props.image})lightgray 50% / cover no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%), url(${( props ) => props.image}), lightgray 50% / cover no-repeat;
 `
 
 export const Content = styled.div`
