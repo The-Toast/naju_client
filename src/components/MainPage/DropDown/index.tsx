@@ -22,7 +22,7 @@ export default function DropDown() {
     const fetchMissingStamps = async () => {
       try {
         const res = await fetch('/api/stamp?missing=true')
-        if (!res.ok) return
+        if (!res.ok) return new Error('응답 실패')
 
         const data: Stamp[] = await res.json()
         setStamps(data)
