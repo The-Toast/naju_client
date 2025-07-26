@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="작동은 된다">
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/DropDown/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/DropDown/index.tsx" afterDir="false" />
+    <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="빌드 안되네">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753170761261</updated>
       <workItem from="1753170762290" duration="38882000" />
-      <workItem from="1753454405653" duration="34115000" />
+      <workItem from="1753454405653" duration="35330000" />
     </task>
     <task id="LOCAL-00001" summary="clear">
       <option name="closed" value="true" />
@@ -230,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753555019607</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="작동은 된다">
+      <option name="closed" value="true" />
+      <created>1753555035725</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753555035725</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +261,8 @@
     <MESSAGE value="banner image" />
     <MESSAGE value="이거 왜 안올라감" />
     <MESSAGE value="작동은 된다" />
-    <option name="LAST_COMMIT_MESSAGE" value="작동은 된다" />
+    <MESSAGE value="빌드 안되네" />
+    <option name="LAST_COMMIT_MESSAGE" value="빌드 안되네" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

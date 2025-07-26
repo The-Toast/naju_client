@@ -2,7 +2,7 @@ import NextAuth, { type NextAuthOptions } from 'next-auth'
 import KakaoProvider from 'next-auth/providers/kakao'
 import { prisma } from 'lib/prisma'
 
-export const authOptions: NextAuthOptions = {
+const authOptions: NextAuthOptions = {
   providers: [
     KakaoProvider({
       clientId: process.env.NEXT_AUTH_CLIENT_ID!,
