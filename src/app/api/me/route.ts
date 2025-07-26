@@ -1,6 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server'
 import { getToken } from 'next-auth/jwt'
-import { prisma } from '@/lib/prisma'
+import { prisma } from 'lib/prisma'
 
 export async function GET(req: Request) {
   const token = await getToken({

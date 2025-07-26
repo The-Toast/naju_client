@@ -1,10 +1,12 @@
 'use client'
 
+import Link from 'next/link'
+
 import { CaretRightIcon } from '@phosphor-icons/react'
 
 export default function MoreBtn() {
   return (
-    <Content>
+    <Content href={'/calendar'}>
       <Text>자세히 보기</Text>
       <CaretRightIcon size="16" />
     </Content>
@@ -13,7 +15,7 @@ export default function MoreBtn() {
 
 import styled from '@emotion/styled'
 
-export const Content = styled.div`
+export const Content = styled(Link)`
   // Layout
   display: flex;
   padding: 0.75rem 1rem;

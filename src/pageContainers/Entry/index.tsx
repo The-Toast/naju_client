@@ -8,7 +8,7 @@ import Button from 'uikit/Button'
 
 const pages = [
   {
-    icon: '3D/Calendar.png',
+    icon: '3D/CalendarUi.png',
     text: '나주의 모든 일정을 한눈에!',
     id: "처음",
   },

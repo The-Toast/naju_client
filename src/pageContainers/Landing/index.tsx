@@ -14,6 +14,7 @@ import Title from 'components/MainPage/Title'
 
 // First Section
 import Stamp from 'components/MainPage/Stamp'
+import DropDown from 'components/MainPage/DropDown'
 import Banner from 'components/Banner'
 
 //Second Section
@@ -46,8 +47,9 @@ export default function Landing() {
           <Section>
             <TopContent>
               <Header UserName={user.nickname} ProfileImage={user.profileImage} />
-              <Stamp StampNumber={10}/>
+              <Stamp />
             </TopContent>
+            <DropDown />
             <Banner />
           </Section>
           <SectionLine />

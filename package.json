@@ -16,15 +16,22 @@
     "@emotion/react": "^11.14.0",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.14.1",
+    "@nestjs/common": "^11.1.5",
+    "@nestjs/core": "^11.1.5",
+    "@nestjs/platform-express": "^11.1.5",
     "@phosphor-icons/react": "^2.1.10",
     "@prisma/client": "^6.12.0",
     "@storybook/addon-themes": "^9.0.18",
+    "@zxing/browser": "^0.1.5",
     "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
     "emotion-reset": "^3.0.1",
     "next": "15.4.2",
     "next-auth": "^4.24.11",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
     "zustand": "^5.0.6"
   },
   "devDependencies": {
@@ -46,6 +53,7 @@
     "playwright": "^1.54.1",
     "prisma": "6.12.0",
     "storybook": "^9.0.18",
+    "ts-node": "^10.9.2",
     "typescript": "^5",
     "vitest": "^3.2.4"
   }

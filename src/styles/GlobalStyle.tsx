@@ -80,9 +80,13 @@ export const Styled = css`
   input[type='search']::-webkit-search-results-decoration {
     display: none;
   }
-
+  
   textarea {
     resize: none;
+  }
+  
+  svg {
+    display: block;
   }
   
   body,
