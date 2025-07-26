@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="빌드 안되네">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753170761261</updated>
       <workItem from="1753170762290" duration="38882000" />
-      <workItem from="1753454405653" duration="35330000" />
+      <workItem from="1753454405653" duration="36136000" />
     </task>
     <task id="LOCAL-00001" summary="clear">
       <option name="closed" value="true" />
@@ -240,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753555035725</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="빌드 안되네">
+      <option name="closed" value="true" />
+      <created>1753556248675</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1753556248675</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
