@@ -43,7 +43,7 @@ export default function EntryPage() {
       <Content>
         <CenterContent>
           <Icon>
-            <img src={pages[page].icon} alt={pages[page].id}/>
+            <Image src={pages[page].icon} alt={pages[page].id}/>
           </Icon>
           <Text>
             {pages[page].text}
@@ -70,7 +70,7 @@ export const Container = styled.div`
   // Layout
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -107,6 +107,11 @@ export const Icon = styled.div`
   justify-content: center;
   align-items: center;
   aspect-ratio: 1/1;
+`
+
+export const Image = styled.img`
+  width: 9.375rem;
+  height: 9.375rem;
 `
 
 export const Text = styled.div`
