@@ -77,7 +77,7 @@ export const Container = styled.div`
   bottom: 0;
   right: 0;
   padding: 1.25rem;
-  margin-bottom: 3.625rem;
+  margin-bottom: 5.75rem;
 
   // Animation
   animation: ${pulse} 1.2s ease-in-out infinite;

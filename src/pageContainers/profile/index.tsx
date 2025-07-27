@@ -260,7 +260,7 @@ const SaveButton = styled.button`
 const LogoutWrapper = styled.div`
   width: 100%;
   position: absolute;
-  margin-bottom: 58px;
+  margin-bottom: 5.75rem;
   bottom: 0;
   left: 0;
 `

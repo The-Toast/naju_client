@@ -49,6 +49,7 @@ export const Content = styled.div`
   left: 0;
   width: 100vw;
   height: 3.625rem;
+  margin-bottom: 2.125rem;
   align-items: center;
   flex-shrink: 0;
   
