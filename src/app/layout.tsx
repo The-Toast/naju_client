@@ -30,26 +30,36 @@ export default function RootLayout(
 ) {
   return (
     <html lang={'ko'}>
-      <head>
-        <title>나주시</title>
-        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="apple-touch-icon" href="/icons/192.png" />
-        <style
-          data-emotion-css={cache.inserted._global}
-          dangerouslySetInnerHTML={{
-            __html: Object.values(cache.inserted)
-              .map((style) => style)
-              .join('\n'),
-          }}
-        />
-      </head>
+    <head>
+      <title>나주시</title>
+      <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+      <link
+        rel="icon"
+        href="/icons/512.png"
+        type="image/png"
+        sizes="512x512"
+      />
+      <link
+        rel="apple-touch-icon"
+        href="/icons/192.png"
+        type="image/png"
+        sizes="192x192"
+      />
+      <style
+        data-emotion-css={cache.inserted._global}
+        dangerouslySetInnerHTML={{
+          __html: Object.values(cache.inserted)
+            .map((style) => style)
+            .join('\n'),
+        }}
+      />
+    </head>
       <body suppressHydrationWarning={true}>
-        <Provider>
-          {children}
-        </Provider>
+      <Provider>
+        {children}
+      </Provider>
       </body>
     </html>
-  )
+)
 }
 
