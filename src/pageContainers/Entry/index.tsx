@@ -70,7 +70,7 @@ export const Container = styled.div`
   // Layout
   display: flex;
   width: 100vw;
-  height: 100dvh;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;

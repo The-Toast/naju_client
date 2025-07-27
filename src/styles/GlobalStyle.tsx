@@ -23,8 +23,13 @@ export const Styled = css`
     border: 0;
     font: inherit;
     vertical-align: baseline;
-    overflow: hidden;
     text-decoration: none;
+
+    /* prevent drag/select globally */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
 
   /* HTML5 display-role reset for older browsers */

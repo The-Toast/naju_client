@@ -71,8 +71,25 @@ export async function DELETE(req: NextRequest) {
   }
 
   try {
+    // Find user by kakaoId to get the internal user id
+    const user = await prisma.user.findUnique({
+      where: { kakaoId: token.id as string },
+      select: { id: true }
+    })
+
+    if (!user) {
+      return NextResponse.json(
+        {
+          success: false,
+          message: 'User not found.'
+        },
+        { status: 404 }
+      )
+    }
+
     await prisma.$transaction([
-      prisma.user.delete({ where: { kakaoId: token.id as string } })
+      prisma.stampRecord.deleteMany({ where: { userId: user.id } }),
+      prisma.user.delete({ where: { id: user.id } })
     ])
 
     return NextResponse.json(

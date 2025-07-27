@@ -49,22 +49,6 @@ export default function CategoryPage(
         </Content>
       </Container>
     </>
-    /*<Container>
-      <h1>{title}</h1>
-
-      {stamps.length === 0 ? (
-        <Empty>스탬프가 없습니다.</Empty>
-      ) : (
-        <List>
-          {stamps.map((stamp) => (
-            <li key={stamp.id}>
-              <strong>{stamp.name}</strong> - {stamp.location}
-              <p>{stamp.description}</p>
-            </li>
-          ))}
-        </List>
-      )}
-    </Container>*/
   )
 }
 
@@ -74,7 +58,7 @@ export const Container = styled.div`
   // Layout
   display: flex;
   width: 100vw;
-  height: 100dvh;
+  height: 100%;
   padding-top: 4.5rem;
   padding-bottom: 72px;
 

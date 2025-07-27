@@ -72,7 +72,7 @@ export const Container = styled.div`
   // Layout
   display: flex;
   width: 100vw;
-  height: 100dvh;
+  height: 100%;
   padding-bottom: 72px;
 
   // Style

@@ -8,13 +8,14 @@ interface ButtonProps {
   size?: string | '100%';
   children: ReactNode
   onClick?: (event: MouseEvent<HTMLElement>) => void
+  onContextMenu?: (event: MouseEvent<HTMLElement>) => void
 }
 
 export default function StyledButton(
-  {  color = '#FFF', bg = '0075FF', size = '22.625rem', children, onClick }: ButtonProps
+  { color = '#FFF', bg = '0075FF', size = '22.625rem', children, onClick, onContextMenu }: ButtonProps
 ) {
   return (
-    <Button color={color} bg={bg} size={size} onClick={onClick} >
+    <Button color={color} bg={bg} size={size} onClick={onClick} onContextMenu={onContextMenu} >
       <BtnText>
         {children}
       </BtnText>

@@ -5,6 +5,7 @@ import { getToken } from 'next-auth/jwt'
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl
 
+  // allow these paths unconditionally
   if (
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api') ||
@@ -19,31 +20,24 @@ export async function middleware(req: NextRequest) {
 
   const isFirstVisit = !req.cookies.get('hasVisited')
   const isEntryPage = pathname === '/entry'
-  const isAuthPage = pathname.startsWith('/auth')
+  const isLoginPage = pathname === '/auth/login'
 
+  // First time visit — redirect to /entry unless already on /entry
   if (isFirstVisit && !isEntryPage) {
     const res = NextResponse.redirect(new URL('/entry', req.url))
     res.cookies.set('hasVisited', 'true', { path: '/' })
     return res
   }
 
-  if (token && pathname === '/auth/login') {
+  // If logged in, don't allow entry or login page
+  if (token && (isEntryPage || isLoginPage)) {
     return NextResponse.redirect(new URL('/', req.url))
   }
 
-  const isAllowedWithoutLogin = isEntryPage || isAuthPage || pathname === '/'
-
+  // If not logged in, only allow /entry and /auth/login
+  const isAllowedWithoutLogin = isEntryPage || isLoginPage
   if (!token && !isAllowedWithoutLogin) {
     return NextResponse.redirect(new URL('/auth/login', req.url))
-  }
-
-  try {
-    const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET })
-    // ...
-  } catch (err) {
-    const res = NextResponse.redirect(new URL('/auth/login', req.url))
-    res.cookies.delete('next-auth.session-token')
-    return res
   }
 
   return NextResponse.next()

@@ -40,7 +40,7 @@ export const Container = styled.div`
   flex-shrink: 0;
 
   // Style
-  border-bottom: 1px solid ${({ theme }) => theme.Black[4]};'
+  border-bottom: 1px solid ${({ theme }) => theme.Black[4]};
   background: ${({ theme }) => theme.White[100]};
 `
 

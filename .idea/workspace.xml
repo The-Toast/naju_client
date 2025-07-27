@@ -4,8 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="빌드 안되네">
+    <list default="true" id="112c0106-afbf-48f2-a73d-287c15b124f9" name="Changes" comment="last commit">
+      <change afterPath="$PROJECT_DIR$/public/icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/auth/logout/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/user/update-nickname/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/user/upload-profile/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/profile/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pageContainers/profile/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/user/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/user/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageContainers/Calendar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageContainers/Calendar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageContainers/Entry/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageContainers/Entry/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageContainers/Landing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageContainers/Landing/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageContainers/Stamp/CategoryPage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageContainers/Stamp/CategoryPage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageContainers/Stamp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageContainers/Stamp/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uikit/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/uikit/Button/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,26 +71,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "/Users/yechan0616/Desktop/naju_client/.storybook",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeWithMe",
-    "ts.external.directory.path": "/Users/yechan0616/Desktop/naju_client/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yechan0616/Desktop/naju_client/.storybook&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/yechan0616/Desktop/naju_client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.storybook" />
@@ -108,7 +133,8 @@
       <option name="presentableId" value="Default" />
       <updated>1753170761261</updated>
       <workItem from="1753170762290" duration="38882000" />
-      <workItem from="1753454405653" duration="36136000" />
+      <workItem from="1753454405653" duration="42472000" />
+      <workItem from="1753604053623" duration="559000" />
     </task>
     <task id="LOCAL-00001" summary="clear">
       <option name="closed" value="true" />
@@ -246,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753556248675</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix">
+      <option name="closed" value="true" />
+      <created>1753558151870</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1753558151870</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +302,9 @@
     <MESSAGE value="이거 왜 안올라감" />
     <MESSAGE value="작동은 된다" />
     <MESSAGE value="빌드 안되네" />
-    <option name="LAST_COMMIT_MESSAGE" value="빌드 안되네" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -276,7 +312,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/Events.ts</url>
           <line>241</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

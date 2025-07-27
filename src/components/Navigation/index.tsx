@@ -8,7 +8,6 @@ import {
   Home,
   Calendar,
   Stamp,
-  Location,
   My
 } from 'assets'
 
@@ -16,7 +15,6 @@ const navItems = [
   { icon: <Home />, label: '홈', href: '/' },
   { icon: <Calendar />, label: '캘린더', href: '/calendar' },
   { icon: <Stamp />, label: '스탬프', href: '/stamp' },
-  { icon: <Location />, label: '위치', href: '/location' },
   { icon: <My />, label: '마이', href: '/profile' },
 ]
 
